@@ -1,4 +1,4 @@
-<?php namespace Sigues\ForceDotComToolkitForPhp;
+<?php
 use Iterator;
 use SoapClient;
 /*

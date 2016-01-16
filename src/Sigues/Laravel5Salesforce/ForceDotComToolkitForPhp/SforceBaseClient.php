@@ -1,4 +1,6 @@
 <?php namespace Sigues\ForceDotComToolkitForPhp;
+use Iterator;
+use SoapClient;
 /*
  * Copyright (c) 2007, salesforce.com, inc.
  * All rights reserved.

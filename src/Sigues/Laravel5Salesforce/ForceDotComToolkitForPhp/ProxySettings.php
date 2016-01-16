@@ -1,4 +1,4 @@
-<?php
+<?php namespace Sigues\ForceDotComToolkitForPhp;
 /*
  * Copyright (c) 2007, salesforce.com, inc.
  * All rights reserved.

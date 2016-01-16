@@ -1,6 +1,6 @@
 <?php namespace Sigues\Laravel5Salesforce;
 
-use Sigues\ForceDotComToolkitForPhp\SforceEnterpriseClient as Client;
+use Sigues\Laravel5Salesforce\ForceDotComToolkitForPhp\SforceEnterpriseClient as Client;
 use Exception;
 use Illuminate\Config\Repository;
 

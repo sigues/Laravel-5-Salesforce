@@ -1,12 +1,12 @@
-<?php namespace Davispeixoto\Laravel5Salesforce;
+<?php namespace Sigues\Laravel5Salesforce;
 
-use Davispeixoto\ForceDotComToolkitForPhp\SforceEnterpriseClient as Client;
+use Sigues\ForceDotComToolkitForPhp\SforceEnterpriseClient as Client;
 use Exception;
 use Illuminate\Config\Repository;
 
 /**
  * Class Salesforce
- * @package Davispeixoto\Laravel5Salesforce
+ * @package Sigues\Laravel5Salesforce
  *
  * The Salesforce service accessor Constructor
  */

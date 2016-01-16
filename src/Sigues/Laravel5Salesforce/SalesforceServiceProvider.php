@@ -1,4 +1,4 @@
-<?php namespace Davispeixoto\Laravel5Salesforce;
+<?php namespace Sigues\Laravel5Salesforce;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
@@ -43,8 +43,8 @@ class SalesforceServiceProvider extends ServiceProvider
     {
         $this->app->booting(function () {
             $loader = AliasLoader::getInstance();
-            $loader->alias('Salesforce', 'Davispeixoto\Laravel5Salesforce\SalesforceFacade');
-            $loader->alias('SF', 'Davispeixoto\Laravel5Salesforce\SalesforceFacade');
+            $loader->alias('Salesforce', 'Sigues\Laravel5Salesforce\SalesforceFacade');
+            $loader->alias('SF', 'Sigues\Laravel5Salesforce\SalesforceFacade');
         });
 
         $this->app['salesforce'] = $this->app->share(function ($app) {
@@ -60,6 +60,6 @@ class SalesforceServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['salesforce', 'Davispeixoto\Laravel5Salesforce\Salesforce'];
+        return ['salesforce', 'Sigues\Laravel5Salesforce\Salesforce'];
     }
 }

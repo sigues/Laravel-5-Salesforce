@@ -1,10 +1,10 @@
-<?php namespace Davispeixoto\Laravel5Salesforce;
+<?php namespace Sigues\Laravel5Salesforce;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class SalesforceFacade
- * @package  Davispeixoto\Laravel5Salesforce
+ * @package  Sigues\Laravel5Salesforce
  *
  * Facade for the Salesforce service
  */

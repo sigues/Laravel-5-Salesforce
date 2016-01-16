@@ -1,4 +1,4 @@
-<?php namespace Sigues\ForceDotComToolkitForPhp;
+<?php namespace Sigues\Laravel5Salesforce\ForceDotComToolkitForPhp;
 /*
  * Copyright (c) 2007, salesforce.com, inc.
  * All rights reserved.
